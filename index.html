@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mr. Abdilahi Ahmed | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header img {
+      border-radius: 70%;
+      width: 150px;
+      height: 150px;
+      border: 3px solid #f39c12;
+      margin-bottom: 20px;
+    }
+
+    nav {
+      background-color: #34495e;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right;
+      gap: 30px;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f39c12;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .item img {
+      width: 120px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .socials a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      color: #f39c12;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    form input, form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      width: 100%;
+    }
+
+    form button {
+      padding: 12px;
+      background-color: #2c3e50;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    form button:hover {
+      background-color: #f39c12;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* ✅ Responsive Styles */
+    @media (max-width: 768px) {
+      .item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .item img {
+        width: 100%;
+        height: auto;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="my profile photo.jpg" alt="Mr. Abdilahi Ahmed">
+    <h1>Mr. Abdilahi Ahmed</h1>
+    <p>IT Student | Graphic Designer | Web Developer | Computer Troubleshooter</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I am a student at <strong>Tisqaad IT and Computer College</strong>. I passionate about becoming an IT expert with specialties in Graphic Design, Web Development, and Computer Troubleshooting.</p>
+    </div>
+  </section>
+
+  <section id="courses">
+    <div class="card">
+      <h2>Completed Courses</h2>
+      <h3>I have completed the below courses and I got a lot of knowledge</h3><br>
+
+      <div class="item">
+        <img src="A+ certification.jpg" alt="Hardware Course">
+        <div>
+          <h4>Hardware (A+ Certification)</h4>
+          <p>Learned about assembling, repairing, and troubleshooting computer hardware systems.</p>
+        </div>
+
+      <div class="item">
+        <img src="Multimedia.jpg" alt="Multimedia">
+        <div>
+          <h4>Multimedia</h4>
+          <p>Studied multimedia tools for designing posters, videos, and digital communication elements.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="item">
+        <img src="Networking.jpg" alt="Networking">
+        <div>
+          <h4>Networking (N+)</h4>
+          <p>Covered basics of LAN/WAN, IP addressing, cabling, and network protocols.</p>
+        </div>
+      
+
+      <div class="item">
+        <img src="web development.jpg" alt="Web Development">
+        <div>
+          <h4>Web Development</h4>
+          <p>Gained skills in HTML, CSS, and JavaScript to build and host websites.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+      <h2>My Projects</h2>
+      <h3>I have done these projects those eqiuped me an experiences</h3><br>
+
+      <div class="item">
+        <img src="Installation.jpg" alt="Software Installation">
+        <div>
+          <h4>Software Installations</h4>
+          <p>Installed and configured various operating systems and software applications.</p>
+        </div>
+
+      <div class="item">
+        <img src="Id card.jpg" alt="ID Card Design">
+        <div>
+          <h4>ID Card Design</h4>
+          <p>Created professional ID cards using Photoshop and CorelDraw for schools and offices.</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="Facebook poster.jpg" alt="Facebook Poster Design">
+        <div>
+          <h4>Facebook Poster Design</h4>
+          <p>Designed engaging posters for social media advertising and branding.</p>
+        </div>
+    
+
+      <div class="item">
+        <img src="mockup board.png" alt="Mockup Board Design">
+        <div>
+          <h4>Mockup Board Design</h4>
+          <p>Designed mockup boards and visual branding content for projects and presentations.</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="cables.jpg" alt="Cabling">
+        <div>
+          <h4>Straight & Cross Cable Connections</h4>
+          <p>Practiced cabling techniques using RJ45 for creating straight and crossover cables.</p>
+        </div>
+
+      <div class="item">
+        <img src="my portfolio.png" alt="Portfolio Website">
+        <div>
+          <h4>Portfolio Website</h4>
+          <p>Coded and launched a personal portfolio using HTML, CSS, and media content.</p>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact Me</h2>
+      <p>Let’s connect on social media or send me a message directly.</p>
+      <div class="socials" style="margin-bottom: 20px">
+             <a href="Facebook – log in or sign up" target="_blank">Facebook</a>
+             <a href="TikTok - Make Your Day" target="_blank">TikTok</a>
+             <a href="YouTube" target="_blank">YouTube</a>
+             <a href="abdilahizerbia@gmail.com">Email</a>
+      </div>
+
+      <!-- ✅ Contact Form -->
+      <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message" rows="5" placeholder="Your Message..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Mr. Abdilahi Ahmed. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
